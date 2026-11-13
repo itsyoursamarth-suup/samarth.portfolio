@@ -569,32 +569,32 @@
                     <div class="social-links">
                         <a href="mailto:sp7911009@gmail.com" class="social-btn" title="Send Email"><i class="fa-solid fa-envelope"></i></a>
                         <a href="https://wa.me/919340305765" target="_blank" rel="noopener noreferrer" class="social-btn" title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="https://github.com/sp7911009" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/itsyoursamarth-suup" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/samarth-patel-365102259" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
 
                 <div class="contact-form-container card-glass">
                     <h3>Send a Message</h3>
-                    <form id="contact-form" class="contact-form" action="https://formspree.io/f/xeagjzzg" method="POST">
+                    <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
                         <div class="form-group">
                             <label for="form-name">Your Name *</label>
-                            <input type="text" name="name" id="form-name" required placeholder="Enter your full name">
+                            <input type="text" id="form-name" required placeholder="Enter your full name">
                         </div>
 
                         <div class="form-group">
                             <label for="form-email">Your Email *</label>
-                            <input type="email" name="email" id="form-email" required placeholder="name@example.com">
+                            <input type="email" id="form-email" required placeholder="name@example.com">
                         </div>
 
                         <div class="form-group">
                             <label for="form-subject">Subject</label>
-                            <input type="text" name="subject" id="form-subject" placeholder="Project Inquiry / Opportunity">
+                            <input type="text" id="form-subject" placeholder="Project Inquiry / Opportunity">
                         </div>
 
                         <div class="form-group">
                             <label for="form-message">Message *</label>
-                            <textarea name="message" id="form-message" rows="5" required placeholder="Write your message here..."></textarea>
+                            <textarea id="form-message" rows="5" required placeholder="Write your message here..."></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-block">
