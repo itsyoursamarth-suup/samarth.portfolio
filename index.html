@@ -20,9 +20,15 @@
 </head>
 <body>
 
-    <!-- Background Gradient Glows -->
+    <!-- Background Gradient Glows - Subtle -->
     <div class="bg-glow bg-glow-1"></div>
     <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Subtle Grid Pattern -->
+    <div class="bg-grid"></div>
+
+    <!-- Code Rain / Matrix Effect - Subtle -->
+    <div class="code-rain" id="code-rain"></div>
 
     <!-- Navigation Header -->
     <header class="navbar" id="navbar">
@@ -56,32 +62,32 @@
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="container hero-container">
-            <div class="hero-content">
+            <div class="hero-content reveal-stagger">
                 <div class="status-badge">
                     <span class="pulse-dot"></span>
                     <span>Available for Internships & Tech Roles</span>
                 </div>
 
-                <h1 class="hero-title">
+                <h1 class="hero-title text-reveal">
                     Hi, I'm <span class="highlight-text">Samarth Patel</span>
                 </h1>
 
-                <h2 class="hero-subtitle">
+                <h2 class="hero-subtitle text-reveal">
                     Computer Science & Engineering Student
                 </h2>
 
-                <p class="hero-description">
+                <p class="hero-description text-reveal">
                     Pursuing B.Tech in CSE at <strong>Gyan Ganga Institute of Technology and Science (GGITS), Jabalpur</strong>. Passionate about software development, data structures, full-stack web applications, and solving real-world technological challenges.
                 </p>
 
                 <div class="hero-cta-group">
-                    <a href="#contact" class="btn btn-primary">
+                    <a href="#contact" class="btn-liquid btn-liquid-primary">
                         <i class="fa-solid fa-paper-plane"></i> Get In Touch
                     </a>
-                    <a href="#projects" class="btn btn-secondary">
+                    <a href="#projects" class="btn-liquid btn-liquid-secondary">
                         <i class="fa-solid fa-code-branch"></i> View My Work
                     </a>
-                    <button class="btn btn-outline" id="open-resume-btn">
+                    <button class="btn-liquid btn-liquid-outline" id="open-resume-btn">
                         <i class="fa-solid fa-file-arrow-down"></i> Resume Profile
                     </button>
                 </div>
@@ -159,8 +165,13 @@
                 <div class="title-underline"></div>
             </div>
 
-            <div class="about-grid">
-                <div class="about-card card-glass">
+            <div class="about-grid reveal-stagger">
+                <div class="about-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
                     <h3>Academic Focus</h3>
                     <p>
@@ -168,7 +179,12 @@
                     </p>
                 </div>
 
-                <div class="about-card card-glass">
+                <div class="about-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 20%; left: 20%; animation-delay: 1s;"></div>
+                        <div class="glass-particle" style="top: 70%; left: 70%; animation-delay: 3s;"></div>
+                        <div class="glass-particle" style="top: 40%; left: 50%; animation-delay: 5s;"></div>
+                    </div>
                     <div class="card-icon"><i class="fa-solid fa-code"></i></div>
                     <h3>Technical Passion</h3>
                     <p>
@@ -176,7 +192,12 @@
                     </p>
                 </div>
 
-                <div class="about-card card-glass">
+                <div class="about-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 15%; left: 15%; animation-delay: 0.5s;"></div>
+                        <div class="glass-particle" style="top: 55%; left: 85%; animation-delay: 2.5s;"></div>
+                        <div class="glass-particle" style="top: 35%; left: 65%; animation-delay: 4.5s;"></div>
+                    </div>
                     <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
                     <h3>Career Objectives</h3>
                     <p>
@@ -197,9 +218,9 @@
             </div>
 
             <div class="timeline">
-                <div class="timeline-item">
+                <div class="timeline-item reveal">
                     <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <div class="timeline-content card-glass">
+                    <div class="timeline-content card-liquid">
                         <div class="timeline-header">
                             <div>
                                 <h3 class="degree-title">Bachelor of Technology (B.Tech)</h3>
@@ -223,9 +244,9 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
+                <div class="timeline-item reveal">
                     <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
-                    <div class="timeline-content card-glass">
+                    <div class="timeline-content card-liquid">
                         <div class="timeline-header">
                             <div>
                                 <h3 class="degree-title">Higher Secondary Education (Class XII)</h3>
@@ -252,9 +273,14 @@
                 <div class="title-underline"></div>
             </div>
 
-            <div class="skills-grid">
+            <div class="skills-grid reveal-stagger">
                 <!-- Languages -->
-                <div class="skill-category card-glass">
+                <div class="skill-category card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="category-header">
                         <i class="fa-solid fa-laptop-code"></i>
                         <h3>Programming Languages</h3>
@@ -292,7 +318,12 @@
                 </div>
 
                 <!-- Web Technologies -->
-                <div class="skill-category card-glass">
+                <div class="skill-category card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 20%; left: 20%; animation-delay: 1s;"></div>
+                        <div class="glass-particle" style="top: 70%; left: 70%; animation-delay: 3s;"></div>
+                        <div class="glass-particle" style="top: 40%; left: 50%; animation-delay: 5s;"></div>
+                    </div>
                     <div class="category-header">
                         <i class="fa-solid fa-globe"></i>
                         <h3>Web Development</h3>
@@ -330,7 +361,12 @@
                 </div>
 
                 <!-- Core CS & Databases -->
-                <div class="skill-category card-glass">
+                <div class="skill-category card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 15%; left: 15%; animation-delay: 0.5s;"></div>
+                        <div class="glass-particle" style="top: 55%; left: 85%; animation-delay: 2.5s;"></div>
+                        <div class="glass-particle" style="top: 35%; left: 65%; animation-delay: 4.5s;"></div>
+                    </div>
                     <div class="category-header">
                         <i class="fa-solid fa-layer-group"></i>
                         <h3>Core CS Concepts</h3>
@@ -346,7 +382,12 @@
                 </div>
 
                 <!-- Developer Tools -->
-                <div class="skill-category card-glass">
+                <div class="skill-category card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="category-header">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                         <h3>Tools & Environment</h3>
@@ -366,15 +407,15 @@
     <!-- Projects Section -->
     <section class="section projects-section" id="projects">
         <div class="container">
-            <div class="section-header text-center">
+            <div class="section-header text-center reveal">
                 <span class="section-tag">Portfolio</span>
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="title-underline"></div>
             </div>
 
-            <div class="projects-grid">
+            <div class="projects-grid reveal-stagger">
                 <!-- Project 1 -->
-                <div class="project-card card-glass">
+                <div class="project-card card-liquid">
                     <div class="project-header">
                         <div class="project-folder-icon"><i class="fa-regular fa-folder-open"></i></div>
                         <div class="project-links">
@@ -395,7 +436,12 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div class="project-card card-glass">
+                <div class="project-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="project-header">
                         <div class="project-folder-icon"><i class="fa-regular fa-folder-open"></i></div>
                         <div class="project-links">
@@ -415,7 +461,12 @@
                 </div>
 
                 <!-- Project 3 -->
-                <div class="project-card card-glass">
+                <div class="project-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="project-header">
                         <div class="project-folder-icon"><i class="fa-regular fa-folder-open"></i></div>
                         <div class="project-links">
@@ -435,7 +486,12 @@
                 </div>
 
                 <!-- Project 4 -->
-                <div class="project-card card-glass">
+                <div class="project-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="project-header">
                         <div class="project-folder-icon"><i class="fa-regular fa-folder-open"></i></div>
                         <div class="project-links">
@@ -460,14 +516,19 @@
     <!-- Certifications & Key Achievements -->
     <section class="section cert-section" id="certifications">
         <div class="container">
-            <div class="section-header text-center">
+            <div class="section-header text-center reveal">
                 <span class="section-tag">Achievements</span>
                 <h2 class="section-title">Certifications & Growth</h2>
                 <div class="title-underline"></div>
             </div>
 
-            <div class="cert-grid">
-                <div class="cert-card card-glass">
+            <div class="cert-grid reveal-stagger">
+                <div class="cert-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <div class="cert-badge-icon"><i class="fa-solid fa-award"></i></div>
                     <div class="cert-content">
                         <h3>Data Structures & Algorithms in C++</h3>
@@ -476,7 +537,12 @@
                     </div>
                 </div>
 
-                <div class="cert-card card-glass">
+                <div class="cert-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 20%; left: 20%; animation-delay: 1s;"></div>
+                        <div class="glass-particle" style="top: 70%; left: 70%; animation-delay: 3s;"></div>
+                        <div class="glass-particle" style="top: 40%; left: 50%; animation-delay: 5s;"></div>
+                    </div>
                     <div class="cert-badge-icon"><i class="fa-solid fa-code"></i></div>
                     <div class="cert-content">
                         <h3>Full Stack Web Development Essentials</h3>
@@ -485,7 +551,12 @@
                     </div>
                 </div>
 
-                <div class="cert-card card-glass">
+                <div class="cert-card card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 15%; left: 15%; animation-delay: 0.5s;"></div>
+                        <div class="glass-particle" style="top: 55%; left: 85%; animation-delay: 2.5s;"></div>
+                        <div class="glass-particle" style="top: 35%; left: 65%; animation-delay: 4.5s;"></div>
+                    </div>
                     <div class="cert-badge-icon"><i class="fa-solid fa-people-group"></i></div>
                     <div class="cert-content">
                         <h3>College Hackathons & Tech Events</h3>
@@ -500,15 +571,20 @@
     <!-- Contact Section -->
     <section class="section contact-section" id="contact">
         <div class="container">
-            <div class="section-header text-center">
+            <div class="section-header text-center reveal">
                 <span class="section-tag">Connect</span>
                 <h2 class="section-title">Contact Me</h2>
                 <div class="title-underline"></div>
                 <p class="section-subtitle">Feel free to reach out for opportunities, project collaborations, or queries!</p>
             </div>
 
-            <div class="contact-wrapper">
-                <div class="contact-info card-glass">
+            <div class="contact-wrapper reveal-stagger">
+                <div class="contact-info card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <h3>Contact Details</h3>
                     <p class="contact-info-desc">
                         I am currently open for summer internships, technical projects, and collaborative opportunities. Get in touch directly via email or phone.
@@ -574,7 +650,12 @@
                     </div>
                 </div>
 
-                <div class="contact-form-container card-glass">
+                <div class="contact-form-container card-liquid">
+                    <div class="glass-particles">
+                        <div class="glass-particle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+                        <div class="glass-particle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+                        <div class="glass-particle" style="top: 30%; left: 60%; animation-delay: 4s;"></div>
+                    </div>
                     <h3>Send a Message</h3>
                     <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
                         <div class="form-group">
